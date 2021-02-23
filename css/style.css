@@ -490,6 +490,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 991px) {
+.carousel-inner{
+padding-left: 300px;
+padding-right: 300px;
+}
+
+.carousel-inner.carousel-item{
+ width: 500px;
+  }
+}
+
+@media (max-width: 991px) {
   #hero {
     height: 100vh;
     text-align: center;
